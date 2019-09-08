@@ -1,0 +1,21 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+img {
+  /* transform: translateX(200px);
+  transform: translateY(-200px); */
+  /* transform: translate(-200px, 200px); */
+  /* transform: scaleX(1.5); */
+  /* transform: scaleY(2); */
+  /* transform: scale(1.5); */
+  /* transform: rotateX(100deg); */
+  /* transform: rotateY(8deg); */
+  /* transform: rotate(360deg); */
+  transform: rotateZ(-90deg) translateX(-200px) scale(2);
+}
